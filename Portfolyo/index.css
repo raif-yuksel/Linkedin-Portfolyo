@@ -1,10 +1,7 @@
-
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400);
-			
 body {
   margin:0;
   padding:0;
-  background-color:#333;
+  background-color:#a34242;
 }
 
 #camera, #panel {
@@ -63,21 +60,6 @@ body {
   cursor:pointer;
   margin-top:2px;
   box-shadow: 0px 1px 0px rgba(0,0,0,.4);
-}
-			
-.shadow {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 240px; height: 20px;
-  margin: 170px -120px 0px;				
-  border-radius: 50%;
-  background-color: rgba(0,0,0,.3);
-  transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
 }
 			
 .strip {
@@ -165,7 +147,6 @@ body {
   text-shadow: 0px 1px 0px rgba(0,0,0,.2);
 }
 
-/* slide */
 body.open > #panel {
   -webkit-transform-origin: 0% 100%;
   -webkit-transform:rotate(0deg) scale(1);
@@ -184,12 +165,6 @@ body.open > #camera {
   margin-left:-300px;
 }
 
-body.open > .shadow {
-  margin: 170px -260px 0px;
-  width:520px;
-}
-
-/* keyframes */
 @-webkit-keyframes led {
   from {
     opacity:.2;
